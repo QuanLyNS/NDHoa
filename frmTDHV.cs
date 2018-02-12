@@ -134,26 +134,3 @@ namespace QuanLyNhanSu
                 DisEnl(false);
             }
         }
-
-        private void dgvTrinhDoHocVan_Click(object sender, EventArgs e)
-        {
-            if (fluu == 0)
-            {
-                // txtMaTDHV.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["MaTDHV"].Value);
-                txtTenTDHV.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["TenTDHV"].Value);
-                txtCN.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["ChuyenNganh"].Value);
-            }
-            else
-            {
-                txtMaTDHV.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["MaTDHV"].Value);
-                txtTenTDHV.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["TenTDHV"].Value);
-                txtCN.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["ChuyenNganh"].Value);
-            }
-        }
-
-        private void dgvTrinhDoHocVan_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
-        {
-           dgvTrinhDoHocVan.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
-        }
-    }
-}
