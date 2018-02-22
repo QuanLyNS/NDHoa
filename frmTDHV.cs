@@ -150,10 +150,5 @@ namespace QuanLyNhanSu
                 txtCN.Text = Convert.ToString(dgvTrinhDoHocVan.CurrentRow.Cells["ChuyenNganh"].Value);
             }
         }
-
-        private void dgvTrinhDoHocVan_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
-        {
-           dgvTrinhDoHocVan.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
-        }
     }
 }
