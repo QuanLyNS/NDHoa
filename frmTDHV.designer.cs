@@ -329,9 +329,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvTrinhDoHocVan;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaTDHV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenTDHV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ChuyenNganh;
-        private System.Windows.Forms.Label label3;
+
     }
 }
