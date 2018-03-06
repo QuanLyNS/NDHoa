@@ -313,22 +313,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtCN;
-        private System.Windows.Forms.TextBox txtTenTDHV;
-        private System.Windows.Forms.TextBox txtMaTDHV;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnHuy;
-        private System.Windows.Forms.Button btnLuu;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dgvTrinhDoHocVan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
+
 
     }
 }
