@@ -15,7 +15,6 @@ namespace QuanLyNhanSu
     {
         TrinhDoHocVan obj = new TrinhDoHocVan();
         TrinhDoHocVanBUS bus = new TrinhDoHocVanBUS();
-
         private int fluu = 1;
         public frmTDHV()
         {
