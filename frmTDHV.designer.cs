@@ -307,7 +307,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvTrinhDoHocVan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
