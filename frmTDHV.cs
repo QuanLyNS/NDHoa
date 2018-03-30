@@ -28,7 +28,6 @@ namespace QuanLyNhanSu
                 frmMain m = new frmMain();
                 m.Show();
                 this.Close();
-
             }
             else
             {
