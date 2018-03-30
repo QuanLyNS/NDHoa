@@ -14,13 +14,12 @@ namespace QuanLyNhanSu
     public partial class frmTDHV : Form
     {
         TrinhDoHocVan obj = new TrinhDoHocVan();
-        TrinhDoHocVanBUS bus = new TrinhDoHocVanBUS();
+        TrinhDoHocVanBUS bus = new TrinhDoHocVanBUS();	
         private int fluu = 1;
         public frmTDHV()
         {
             InitializeComponent();
         }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác Nhận Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
