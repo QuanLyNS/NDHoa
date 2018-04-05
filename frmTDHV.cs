@@ -67,7 +67,6 @@ namespace QuanLyNhanSu
         {
             dgvTrinhDoHocVan.DataSource = bus.GetData();
         }
-
         private void frmTDHV_Load(object sender, EventArgs e)
         {
             HienThi();
