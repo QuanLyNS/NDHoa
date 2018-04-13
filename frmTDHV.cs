@@ -63,16 +63,7 @@ namespace QuanLyNhanSu
             txtTenTDHV.Text = "";
             txtCN.Text = "";
         }
-        private void HienThi()
-        {
-            dgvTrinhDoHocVan.DataSource = bus.GetData();
-        }
-        private void frmTDHV_Load(object sender, EventArgs e)
-        {
-            HienThi();
-            DisEnl(false);
-
-        }
+       
         private void btnThem_Click(object sender, EventArgs e)
         {
             fluu = 0;
